@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC6" sequence="0" timestamp="1519967573673" analysisTimestamp="1520049368209" release="">
+  <Project>
+    <Jar>C:\project\com.sonar.maven\target\classes\Sonar\App.class</Jar>
+    <AuxClasspathEntry>C:\project\com.sonar.maven\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\project\com.sonar.maven\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\project\com.sonar.maven\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\project\com.sonar.maven\target\sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 2 Mar 2018 10:42:53 +0530" total_classes="1" referenced_classes="12" total_bugs="0" total_size="6" num_packages="1" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="15.27" clock_seconds="22.48" peak_mbytes="230.17" alloc_mbytes="896.00" gc_seconds="0.09">
+    <FileStats path="Sonar/App.java" bugCount="0" size="6"/>
+    <PackageStats package="Sonar" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="Sonar.App" sourceFile="App.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="3365" invocations="329" avgMicrosecondsPerInvocation="10229" maxMicrosecondsPerInvocation="1104499" standardDeviationMicrosecondsPerInvocation="82523"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="698" invocations="328" avgMicrosecondsPerInvocation="2129" maxMicrosecondsPerInvocation="208843" standardDeviationMicrosecondsPerInvocation="13101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBugsSummaryStats" totalMilliseconds="490" invocations="12" avgMicrosecondsPerInvocation="40904" maxMicrosecondsPerInvocation="490642" standardDeviationMicrosecondsPerInvocation="135601"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
